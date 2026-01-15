@@ -1,4 +1,5 @@
-# Circular Queue and Two Stack Queue (Data Structures & Algorithms)
+# Circular Queue and Two Stack Queue (Data Structures & Algorithms) 
+# (using python)
 
 ## Overview
 A **Circular Queue** is a linear data structure that follows the **FIFO (First In, First Out)** principle.  
@@ -33,8 +34,8 @@ This design **eliminates wasted space** that occurs in a linear queue after dequ
 ## Two Stack Queue
 
 ## Brief 
-Standard Queues follow the **FIFO** principle: the first item added is the first one removed.
-Standard Stacks follow the **LIFO** principle: the last item added is the first one removed.
+- Standard Queues follow the **FIFO** principle: the first item added is the first one removed.
+- Standard Stacks follow the **LIFO** principle: the last item added is the first one removed.
 - A **Two Stack Queue** technique where  two stack data structures (LIFO) are used together to implement queue behavior (FIFO).
 - A max size is defined since the without it the two stacks are dynamically updated
 - Two stacks are created stack1 for enqueue operations and stack2 for dequeue operations
